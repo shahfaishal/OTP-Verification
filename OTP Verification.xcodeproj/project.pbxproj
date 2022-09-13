@@ -14,6 +14,8 @@
 		9EBAB6B728D06AAF00C6E66D /* OTP_VerificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAB6B628D06AAF00C6E66D /* OTP_VerificationTests.swift */; };
 		9EBAB6C128D06AAF00C6E66D /* OTP_VerificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAB6C028D06AAF00C6E66D /* OTP_VerificationUITests.swift */; };
 		9EBAB6C328D06AAF00C6E66D /* OTP_VerificationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAB6C228D06AAF00C6E66D /* OTP_VerificationUITestsLaunchTests.swift */; };
+		9EBAB6D028D06AC000C6E66D /* VerifyOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAB6CF28D06AC000C6E66D /* VerifyOTPView.swift */; };
+		9EBAB6D228D06C8400C6E66D /* OTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAB6D128D06C8400C6E66D /* OTPViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		9EBAB6BC28D06AAF00C6E66D /* OTP VerificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OTP VerificationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EBAB6C028D06AAF00C6E66D /* OTP_VerificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTP_VerificationUITests.swift; sourceTree = "<group>"; };
 		9EBAB6C228D06AAF00C6E66D /* OTP_VerificationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTP_VerificationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9EBAB6CF28D06AC000C6E66D /* VerifyOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyOTPView.swift; sourceTree = "<group>"; };
+		9EBAB6D128D06C8400C6E66D /* OTPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				9EBAB6A528D06AAE00C6E66D /* OTP_VerificationApp.swift */,
 				9EBAB6A728D06AAE00C6E66D /* ContentView.swift */,
+				9EBAB6CF28D06AC000C6E66D /* VerifyOTPView.swift */,
+				9EBAB6D128D06C8400C6E66D /* OTPViewModel.swift */,
 				9EBAB6A928D06AAF00C6E66D /* Assets.xcassets */,
 				9EBAB6AB28D06AAF00C6E66D /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EBAB6D228D06C8400C6E66D /* OTPViewModel.swift in Sources */,
+				9EBAB6D028D06AC000C6E66D /* VerifyOTPView.swift in Sources */,
 				9EBAB6A828D06AAE00C6E66D /* ContentView.swift in Sources */,
 				9EBAB6A628D06AAE00C6E66D /* OTP_VerificationApp.swift in Sources */,
 			);
