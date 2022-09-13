@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EBAB6A628D06AAE00C6E66D /* OTP_VerificationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAB6A528D06AAE00C6E66D /* OTP_VerificationApp.swift */; };
+		9EBAB6A828D06AAE00C6E66D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAB6A728D06AAE00C6E66D /* ContentView.swift */; };
+		9EBAB6AA28D06AAF00C6E66D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBAB6A928D06AAF00C6E66D /* Assets.xcassets */; };
+		9EBAB6AD28D06AAF00C6E66D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBAB6AC28D06AAF00C6E66D /* Preview Assets.xcassets */; };
+		9EBAB6B728D06AAF00C6E66D /* OTP_VerificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAB6B628D06AAF00C6E66D /* OTP_VerificationTests.swift */; };
+		9EBAB6C128D06AAF00C6E66D /* OTP_VerificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAB6C028D06AAF00C6E66D /* OTP_VerificationUITests.swift */; };
+		9EBAB6C328D06AAF00C6E66D /* OTP_VerificationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBAB6C228D06AAF00C6E66D /* OTP_VerificationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EBAB6B328D06AAF00C6E66D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EBAB69A28D06AAE00C6E66D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EBAB6A128D06AAE00C6E66D;
+			remoteInfo = "OTP Verification";
+		};
+		9EBAB6BD28D06AAF00C6E66D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EBAB69A28D06AAE00C6E66D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EBAB6A128D06AAE00C6E66D;
+			remoteInfo = "OTP Verification";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EBAB6A228D06AAE00C6E66D /* OTP Verification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OTP Verification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBAB6A528D06AAE00C6E66D /* OTP_VerificationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTP_VerificationApp.swift; sourceTree = "<group>"; };
+		9EBAB6A728D06AAE00C6E66D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9EBAB6A928D06AAF00C6E66D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EBAB6AC28D06AAF00C6E66D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9EBAB6B228D06AAF00C6E66D /* OTP VerificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OTP VerificationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBAB6B628D06AAF00C6E66D /* OTP_VerificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTP_VerificationTests.swift; sourceTree = "<group>"; };
+		9EBAB6BC28D06AAF00C6E66D /* OTP VerificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OTP VerificationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBAB6C028D06AAF00C6E66D /* OTP_VerificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTP_VerificationUITests.swift; sourceTree = "<group>"; };
+		9EBAB6C228D06AAF00C6E66D /* OTP_VerificationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTP_VerificationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EBAB69F28D06AAE00C6E66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EBAB6AF28D06AAF00C6E66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EBAB6B928D06AAF00C6E66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EBAB69928D06AAE00C6E66D = {
+			isa = PBXGroup;
+			children = (
+				9EBAB6A428D06AAE00C6E66D /* OTP Verification */,
+				9EBAB6B528D06AAF00C6E66D /* OTP VerificationTests */,
+				9EBAB6BF28D06AAF00C6E66D /* OTP VerificationUITests */,
+				9EBAB6A328D06AAE00C6E66D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EBAB6A328D06AAE00C6E66D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EBAB6A228D06AAE00C6E66D /* OTP Verification.app */,
+				9EBAB6B228D06AAF00C6E66D /* OTP VerificationTests.xctest */,
+				9EBAB6BC28D06AAF00C6E66D /* OTP VerificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EBAB6A428D06AAE00C6E66D /* OTP Verification */ = {
+			isa = PBXGroup;
+			children = (
+				9EBAB6A528D06AAE00C6E66D /* OTP_VerificationApp.swift */,
+				9EBAB6A728D06AAE00C6E66D /* ContentView.swift */,
+				9EBAB6A928D06AAF00C6E66D /* Assets.xcassets */,
+				9EBAB6AB28D06AAF00C6E66D /* Preview Content */,
+			);
+			path = "OTP Verification";
+			sourceTree = "<group>";
+		};
+		9EBAB6AB28D06AAF00C6E66D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9EBAB6AC28D06AAF00C6E66D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EBAB6B528D06AAF00C6E66D /* OTP VerificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EBAB6B628D06AAF00C6E66D /* OTP_VerificationTests.swift */,
+			);
+			path = "OTP VerificationTests";
+			sourceTree = "<group>";
+		};
+		9EBAB6BF28D06AAF00C6E66D /* OTP VerificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EBAB6C028D06AAF00C6E66D /* OTP_VerificationUITests.swift */,
+				9EBAB6C228D06AAF00C6E66D /* OTP_VerificationUITestsLaunchTests.swift */,
+			);
+			path = "OTP VerificationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EBAB6A128D06AAE00C6E66D /* OTP Verification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EBAB6C628D06AAF00C6E66D /* Build configuration list for PBXNativeTarget "OTP Verification" */;
+			buildPhases = (
+				9EBAB69E28D06AAE00C6E66D /* Sources */,
+				9EBAB69F28D06AAE00C6E66D /* Frameworks */,
+				9EBAB6A028D06AAE00C6E66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OTP Verification";
+			productName = "OTP Verification";
+			productReference = 9EBAB6A228D06AAE00C6E66D /* OTP Verification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EBAB6B128D06AAF00C6E66D /* OTP VerificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EBAB6C928D06AAF00C6E66D /* Build configuration list for PBXNativeTarget "OTP VerificationTests" */;
+			buildPhases = (
+				9EBAB6AE28D06AAF00C6E66D /* Sources */,
+				9EBAB6AF28D06AAF00C6E66D /* Frameworks */,
+				9EBAB6B028D06AAF00C6E66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EBAB6B428D06AAF00C6E66D /* PBXTargetDependency */,
+			);
+			name = "OTP VerificationTests";
+			productName = "OTP VerificationTests";
+			productReference = 9EBAB6B228D06AAF00C6E66D /* OTP VerificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EBAB6BB28D06AAF00C6E66D /* OTP VerificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EBAB6CC28D06AAF00C6E66D /* Build configuration list for PBXNativeTarget "OTP VerificationUITests" */;
+			buildPhases = (
+				9EBAB6B828D06AAF00C6E66D /* Sources */,
+				9EBAB6B928D06AAF00C6E66D /* Frameworks */,
+				9EBAB6BA28D06AAF00C6E66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EBAB6BE28D06AAF00C6E66D /* PBXTargetDependency */,
+			);
+			name = "OTP VerificationUITests";
+			productName = "OTP VerificationUITests";
+			productReference = 9EBAB6BC28D06AAF00C6E66D /* OTP VerificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EBAB69A28D06AAE00C6E66D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9EBAB6A128D06AAE00C6E66D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					9EBAB6B128D06AAF00C6E66D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9EBAB6A128D06AAE00C6E66D;
+					};
+					9EBAB6BB28D06AAF00C6E66D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9EBAB6A128D06AAE00C6E66D;
+					};
+				};
+			};
+			buildConfigurationList = 9EBAB69D28D06AAE00C6E66D /* Build configuration list for PBXProject "OTP Verification" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EBAB69928D06AAE00C6E66D;
+			productRefGroup = 9EBAB6A328D06AAE00C6E66D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EBAB6A128D06AAE00C6E66D /* OTP Verification */,
+				9EBAB6B128D06AAF00C6E66D /* OTP VerificationTests */,
+				9EBAB6BB28D06AAF00C6E66D /* OTP VerificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EBAB6A028D06AAE00C6E66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBAB6AD28D06AAF00C6E66D /* Preview Assets.xcassets in Resources */,
+				9EBAB6AA28D06AAF00C6E66D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EBAB6B028D06AAF00C6E66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EBAB6BA28D06AAF00C6E66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EBAB69E28D06AAE00C6E66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBAB6A828D06AAE00C6E66D /* ContentView.swift in Sources */,
+				9EBAB6A628D06AAE00C6E66D /* OTP_VerificationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EBAB6AE28D06AAF00C6E66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBAB6B728D06AAF00C6E66D /* OTP_VerificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EBAB6B828D06AAF00C6E66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBAB6C128D06AAF00C6E66D /* OTP_VerificationUITests.swift in Sources */,
+				9EBAB6C328D06AAF00C6E66D /* OTP_VerificationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EBAB6B428D06AAF00C6E66D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EBAB6A128D06AAE00C6E66D /* OTP Verification */;
+			targetProxy = 9EBAB6B328D06AAF00C6E66D /* PBXContainerItemProxy */;
+		};
+		9EBAB6BE28D06AAF00C6E66D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EBAB6A128D06AAE00C6E66D /* OTP Verification */;
+			targetProxy = 9EBAB6BD28D06AAF00C6E66D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9EBAB6C428D06AAF00C6E66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EBAB6C528D06AAF00C6E66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EBAB6C728D06AAF00C6E66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTP Verification/Preview Content\"";
+				DEVELOPMENT_TEAM = 73K8J8XMY7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.maggnet.OTP-Verification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EBAB6C828D06AAF00C6E66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTP Verification/Preview Content\"";
+				DEVELOPMENT_TEAM = 73K8J8XMY7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.maggnet.OTP-Verification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9EBAB6CA28D06AAF00C6E66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73K8J8XMY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.maggnet.OTP-VerificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTP Verification.app/OTP Verification";
+			};
+			name = Debug;
+		};
+		9EBAB6CB28D06AAF00C6E66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73K8J8XMY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.maggnet.OTP-VerificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTP Verification.app/OTP Verification";
+			};
+			name = Release;
+		};
+		9EBAB6CD28D06AAF00C6E66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73K8J8XMY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.maggnet.OTP-VerificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OTP Verification";
+			};
+			name = Debug;
+		};
+		9EBAB6CE28D06AAF00C6E66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 73K8J8XMY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.maggnet.OTP-VerificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OTP Verification";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EBAB69D28D06AAE00C6E66D /* Build configuration list for PBXProject "OTP Verification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBAB6C428D06AAF00C6E66D /* Debug */,
+				9EBAB6C528D06AAF00C6E66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EBAB6C628D06AAF00C6E66D /* Build configuration list for PBXNativeTarget "OTP Verification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBAB6C728D06AAF00C6E66D /* Debug */,
+				9EBAB6C828D06AAF00C6E66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EBAB6C928D06AAF00C6E66D /* Build configuration list for PBXNativeTarget "OTP VerificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBAB6CA28D06AAF00C6E66D /* Debug */,
+				9EBAB6CB28D06AAF00C6E66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EBAB6CC28D06AAF00C6E66D /* Build configuration list for PBXNativeTarget "OTP VerificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBAB6CD28D06AAF00C6E66D /* Debug */,
+				9EBAB6CE28D06AAF00C6E66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EBAB69A28D06AAE00C6E66D /* Project object */;
+}
